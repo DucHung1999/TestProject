@@ -14,6 +14,7 @@ public class MVCController {
 		ModelAndView mv = new ModelAndView("view_mvc");
 		return mv;
 	}
+	//dung hung
 	@RequestMapping("/boot")
 	public ModelAndView showBoot()
 	{
